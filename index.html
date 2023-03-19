@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Buttons & Inputs</title>
-  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <meta name="description" content="This site hosts buttons and inputs">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="">
@@ -35,32 +35,54 @@
   <main>
     <div>
       <h2>Buttons</h2>
-      <div>
-        <button>Primary</button>
-        <button>Secondary</button>
-        <button>Error</button>
+      <div class="aligncenter">
+        <button class="button button1">Primary</button>
+        <button class="button button1" disabled>Primary</button>
+        <button class="button button2">Secondary</button>
+        <button class="button button2" disabled>Secondary</button>
+        <button class="button button3">Tertiary</button>
+        <button class="button button3" disabled>Tertiary</button>
       </div>
     </div>
     <div>
       <h2>Links</h2>
-      <div>
-        <a href="#">Primary link</a>
-        <a href="#">Secondary link</a>
+      <div class = "aligncenter">
+        <div>
+          <a href="https://17ekorn.github.io/TheCatsBrew/" target="_blank" alt="Click to The Cat's Brew"> Primary Link</a>
+          <a href="https://www.facebook.com" target="_blank" alt="Click to see my resume"> Primary Link</a>
+          <a href="#">Secondary link</a>
+        </div>
       </div>
     </div>
     <div>
       <h2>Form elements</h2>
+      <div class = "aligncenter">
       <form action="#">
         <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" />
+        <input type="text" id="name" name="name"/>
+        <label for="name">Full Name: Has An Error</label>
+        <input type="text" id="name" name="name" minlength="8" maxlength="10"/>
+        <label for="name">Full Name: Disabled</label>
+        <input type="text" id="name" name="name" disabled/>
         <label for="comments">Comments:</label>
         <textarea id="comments" name="comments"></textarea>
-
-        <button>Save</button>
+        <label for="comments">Comments: Has An Error</label>
+        <textarea id="comments" name="comments" minlength="99" maxlength="400"></textarea>
+        <label for="comments">Comments: Disabled</label>
+        <textarea id="comments" name="comments" disabled></textarea>
+        <button class="button save">Save</button>
+        
       </form>
     </div>
+    </div>
   </main>
-  <footer>&copy; 2023</footer>
+  <footer>
+    <div class="valfooter">
+      <li><a href="https://www.facebook.com" target="_blank"> <img src="./img/facebook-8.png" alt="Click to go our Facebook"></a></li>
+      <li><a href="https://www.twitter.com" target="_blank"> <img src="./img/Asset 4-8.png" alt="Click to go our Twitter"></a></li>
+      <li><a href="https://www.instagram.com" target="_blank"> <img src="./img/instagram-8.png" alt="Click to go to our instagram"></a></li>
+    </div>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 

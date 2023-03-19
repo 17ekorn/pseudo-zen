@@ -58,21 +58,32 @@
       <h2>Form elements</h2>
       <div class = "aligncenter">
       <form action="#">
-        <label for="name">Full Name:
+        <div>
+          <label for="name">Full Name:</label>
           <input type="text" id="name" name="name"/>
-        </label>
-        <label for="name">Full Name: Has An Error</label>
-        <input type="text" id="name" name="name" minlength="8" maxlength="10"/>
-        <label for="name">Full Name: Disabled</label>
-        <input type="text" id="name" name="name" disabled/>
-        <label for="comments">Comments:</label>
-        <textarea id="comments" name="comments"></textarea>
-        <label for="comments">Comments: Has An Error</label>
-        <textarea id="comments" name="comments" minlength="99" maxlength="400"></textarea>
-        <label for="comments">Comments: Disabled</label>
-        <textarea id="comments" name="comments" disabled></textarea>
+        </div>
+        <div>
+          <label for="name">Full Name: Has An Error</label>
+          <input type="text" id="name" name="name" minlength="8" maxlength="10"/>
+        </div>
+        <div>
+          <label for="name">Full Name: Disabled</label>
+          <input type="text" id="name" name="name" disabled/>
+        </div>
+
+        <div>
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments"></textarea>
+        </div>
+        <div>
+          <label for="comments">Comments: Has An Error</label>
+          <textarea id="comments" name="comments" minlength="99" maxlength="400"></textarea>
+        </div>
+        <div>
+          <label for="comments">Comments: Disabled</label>
+          <textarea id="comments" name="comments" disabled></textarea>
+        </div>
         <button class="button save">Save</button>
-        
       </form>
     </div>
     </div>

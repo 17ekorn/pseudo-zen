@@ -31,7 +31,7 @@ h2{
 
 a,p{
     font-family: 'Cormorant Garamond', serif;
-    color: var(--deeppink);
+    color: var(--dg);
 }
 
 a{
@@ -42,6 +42,7 @@ a{
 
 a:hover{
     color: var(--buttonhover);
+    transition: all .25s ease;
 }
 
 a:focus{

@@ -42,7 +42,7 @@ h2{
 
 a,p{
     font-family: 'Cormorant Garamond', serif;
-    color: var(--green2);
+    color: var(--dg);
 }
 
 a{
@@ -61,11 +61,11 @@ a:focus{
 }
 
 a:visited{
-    color: var(--green);
+    color: var(--deeppink);
 }
 
 a:visited:hover{
-    color: var(--buttonhover);
+    color: var(--mantis);
 }
 
 

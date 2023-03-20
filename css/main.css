@@ -12,11 +12,16 @@
     --grey: #D3D3D3;
     --dg:	#023020;
     --green2: #099F1D;
+    --purple: #AC94F4;
+    --dpurple: #371F76;
 }
 
 header{
-    background-color: deeppink;
-    min-height: 200px;
+    background-color: var(--dpink);
+    min-height: 170px;
+    align-content: flex-start;
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2{
@@ -75,7 +80,6 @@ body{
 
 .button {
     border:none;
-    color: var(--button);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -84,12 +88,12 @@ body{
     margin: 4px 2px;
     cursor: pointer;
     transition: all .25s ease;
+    border-radius:30px;
 }
 
 .button1{
     background-color: var(--buttonhover);
     color: var(--offwhite);
-    border-radius:30px;
 }
 
 .button1:hover {
@@ -113,7 +117,6 @@ body{
 .button1:disabled{
     background-color: var(--grey);
     color: var(--black);
-    border-radius:30px;
 }
 
 .button1:disabled:hover{
@@ -122,45 +125,9 @@ body{
     box-shadow: none;
 }  
 
-.button2{
-    background-color: var(--green);
-    color: var(--black);
-    border-radius:30px;
-}
-
-.button2:hover {
-    background-color: var(--mantis);
-    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.2),
-    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
-}
-
-.button2:focus{
-    background-color: var(--mantis);
-    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.2),
-    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
-}
-
-.button2:disabled{
-    background-color: var(--grey);
-    color: var(--black);
-    border-radius:30px;
-}
-
-.button2:disabled:hover{
-    background-color: var(--grey);
-    color: var(--black);
-    border-radius:30px;
-    box-shadow: none;
-}  
-
 .button3{
-    background-color: var(--green);
+    background-color:var(--purple);
     color: var(--black);
-    border-radius:30px;
 }
 
 .button3:hover {
@@ -196,7 +163,6 @@ body{
     background-color: var(--deeppink);
     display: block; 
     color: var(--black);
-    border-radius:30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -362,7 +328,7 @@ form{
 
 .valfooter {
     margin-top: 5%;
-    background-color: var(--deeppink);
+    background-color: var(--dpink);
     min-width: 1236px;
     max-height: 200px;
     align-items: center;

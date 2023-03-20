@@ -48,7 +48,7 @@ a,p{
 a{
     margin: 10px;
     font-size: 25px;
-    color: var(--green2);
+    color: var(--dg);
 }
 
 a:hover{
